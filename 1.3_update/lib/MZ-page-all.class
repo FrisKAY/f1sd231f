@@ -1,0 +1,1932 @@
+﻿Gui, Submit
+SoundPlay, C:\Program Files (x86)\AniHUB\AutoP\4gyh5u6u5g4g434fr3r3.mp3
+Gui, 3:show, center h700 w1250,
+Gui, 3:Font, S10   Bold
+Gui, 3:Add, Tab2, x0 y0 w1290 h25 c000000  +BackgroundTrans, Бинды | РП Ситуации 1 | РП Ситуации 2 | Препараты | Доклады | ПМП
+Gui, 3: Tab, 1
+Gui, 3:Add, Picture, x0 y24 w1300 h700, C:\Program Files (x86)\AniHUB\AutoP\gh348f7943hj3h4re3f4fh4htht84htuhfh.jpg
+Gui, 3:Add, Picture, x0 y24 w1300 h700 +BackgroundTrans, %ASimages%
+Gui, 3: Font, S10 C000000
+Gui, 3:Add, Picture, x10 y650 h48 w48     +BackgroundTrans   ginformation, C:\Program Files (x86)\AniHUB\AutoP\14.ico
+; Gui, 3:Add, Picture, x100 y650 h48 w48    +BackgroundTrans   gButtonOpenGuiLecture, C:\Program Files (x86)\AniHUB\AutoP\13.png
+; Gui, 3:Add, Picture, x200 y650 h48 w48   +BackgroundTrans gOffers, C:\Program Files (x86)\AniHUB\AutoP\12.png
+; Gui, 3:Add, Picture, x300 y650 h48 w48   +BackgroundTrans gForum, C:\Program Files (x86)\AniHUB\AutoP\11.png
+; Gui, 3:Add, Picture, x400 y650 h48 w48   +BackgroundTrans gInfo,  C:\Program Files (x86)\AniHUB\AutoP\10.png
+; Gui, 3:Add, Picture, x500 y650 h48 w48   +BackgroundTrans gZA,  C:\Program Files (x86)\AniHUB\AutoP\9.png
+; Gui, 3:Add, Picture, x600 y650 h48 w48   +BackgroundTrans gHelp, C:\Program Files (x86)\AniHUB\AutoP\8.png
+; Gui, 3:Add, Picture, x700 y650 h48 w48   +BackgroundTrans gBag, C:\Program Files (x86)\AniHUB\AutoP\7.png
+; Gui, 3:Add, Picture, x800 y650 h48 w48   +BackgroundTrans gGroup, C:\Program Files (x86)\AniHUB\AutoP\6.png
+; Gui, 3:Add, Picture, x900 y650 h48 w48   +BackgroundTrans  gOCHS, C:\Program Files (x86)\AniHUB\AutoP\5.png
+Gui, 3:Add, Picture, x1000 y650 h48 w48   +BackgroundTrans   gappsettings, C:\Program Files (x86)\AniHUB\AutoP\f56s65f5sbn5fg4jf4hf.png
+Gui, 3:Add, Picture, x1100 y650 h48 w48   +BackgroundTrans   gReload, C:\Program Files (x86)\AniHUB\AutoP\7syfis845.png
+Gui, 3:Add, Picture, x1190 y650 h48 w48   +BackgroundTrans   gGuiClose, C:\Program Files (x86)\AniHUB\AutoP\7f45963.png
+Gui, 3:Add, Button, x10 y40 w300 h40 gLaziness1, [Лечения]
+Gui, 3:Add, Button, x10 y90 w300 h40 gLaziness2, [Рация]
+Gui, 3:Add, Button, x10 y140 w300 h40 gLaziness3, [Рабочий день]
+Gui, 3:Add, Button, x10 y190 w300 h40 gLaziness4, [Посмотреть время]
+Gui, 3:Add, Button, x10 y240 w300 h40 gLaziness5, [Мегафон в АСМП]
+; Gui, 3:Add, Button, x10 y290 w300 h40 , []
+; Gui, 3:Add, Button, x10 y340 w300 h40 , []
+; Gui, 3:Add, Button, x10 y390 w300 h40 , []
+; Gui, 3:Add, Button, x10 y440 w300 h40 , []
+; Gui, 3:Add, Button, x10 y490 w300 h40 , []
+; Gui, 3:Add, Button, x10 y540 w300 h40 , []
+; Gui, 3:Add, Button, x10 y590 w300 h40 , []
+
+Gui, 3:Add, Button, x320 y40 w300 h40 gLaziness19, [Хозяйственные работы]
+Gui, 3:Add, Button, x320 y90 w300 h40 gLaziness20, [Стерилизация медицинских предметов]
+Gui, 3:Add, Button, x320 y140 w300 h40 gLaziness21, [Укол]
+; Gui, 3:Add, Button, x320 y190 w300 h40 , []
+; Gui, 3:Add, Button, x320 y240 w300 h40 , []
+; Gui, 3:Add, Button, x320 y290 w300 h40 , []
+; Gui, 3:Add, Button, x320 y340 w300 h40 , []
+; Gui, 3:Add, Button, x320 y390 w300 h40 , []
+; Gui, 3:Add, Button, x320 y440 w300 h40 , []
+; Gui, 3:Add, Button, x320 y490 w300 h40 , []
+; Gui, 3:Add, Button, x320 y540 w300 h40 , []
+; Gui, 3:Add, Button, x320 y590 w300 h40 , []
+
+Gui, 3:Add, Button, x630 y40 w300 h40 gLaziness25, [Костюм для инфекционного заболевания]
+Gui, 3:Add, Button, x630 y90 w300 h40 gLaziness16, [Надеть халат]
+Gui, 3:Add, Button, x630 y140 w300 h40 gLaziness17, [Надеть перчатки]
+; Gui, 3:Add, Button, x630 y190 w300 h40 , []
+; Gui, 3:Add, Button, x630 y240 w300 h40 , []
+; Gui, 3:Add, Button, x630 y290 w300 h40 , []
+; Gui, 3:Add, Button, x630 y340 w300 h40 , []
+; Gui, 3:Add, Button, x630 y390 w300 h40 , []
+; Gui, 3:Add, Button, x630 y440 w300 h40 , []
+; Gui, 3:Add, Button, x630 y490 w300 h40 , []
+; Gui, 3:Add, Button, x630 y540 w300 h40 , []
+; Gui, 3:Add, Button, x630 y590 w300 h40 , []
+
+Gui, 3:Add, Button, x940 y40 w300 h40 gLaziness26, [Призыв]
+Gui, 3:Add, Button, x940 y90 w300 h40 gLaziness6, [Для СС]
+Gui, 3:Add, Button, x940 y140 w300 h40 gLaziness7, [Собеседование]
+; Gui, 3:Add, Button, x940 y190 w300 h40 , []
+; Gui, 3:Add, Button, x940 y240 w300 h40 , []
+; Gui, 3:Add, Button, x940 y290 w300 h40 , []
+; Gui, 3:Add, Button, x940 y340 w300 h40 , []
+; Gui, 3:Add, Button, x940 y390 w300 h40 , []
+; Gui, 3:Add, Button, x940 y440 w300 h40 , []
+; Gui, 3:Add, Button, x940 y490 w300 h40 , []
+; Gui, 3:Add, Button, x940 y540 w300 h40 , []
+; Gui, 3:Add, Button, x940 y590 w300 h40 , []
+Gui, 3:Tab, 2
+Gui, 3:Add, Picture, x0 y24 w1300 h700, C:\Program Files (x86)\AniHUB\AutoP\gh348f7943hj3h4re3f4fh4htht84htuhfh.jpg
+Gui, 3:Add, Picture, x0 y24 w1300 h700 +BackgroundTrans, %ASimages%
+Gui, 3:Font, S10 C000000
+Gui, 3:Add, Button, x10 y40 w300 h40 gMedicine1, [AСМП]
+Gui, 3:Add, Button, x10 y90 w300 h40 gMedicine2, [Анализ сахара в крови]
+Gui, 3:Add, Button, x10 y140 w300 h40 gMedicine3, [Аллергический приступ]
+Gui, 3:Add, Button, x10 y190 w300 h40 gLaziness18, [Аппарат ИВЛ]
+Gui, 3:Add, Button, x10 y240 w300 h40 gMedicine4, [Вакцинация]
+Gui, 3:Add, Button, x10 y290 w300 h40 gMedicine5, [Внутреннее кровотечение]
+Gui, 3:Add, Button, x10 y340 w300 h40 gMedicine6, [Взятие мазка]
+Gui, 3:Add, Button, x10 y390 w300 h40 gMedicine7, [Взятие крови из вены]
+Gui, 3:Add, Button, x10 y440 w300 h40 gMedicine8, [Взятие крови из пальца]
+Gui, 3:Add, Button, x10 y490 w300 h40 gMedicine9, [Внутриматочная спираль]
+Gui, 3:Add, Button, x10 y540 w300 h40 gMedicine10, [Гастроскопия]
+Gui, 3:Add, Button, x10 y590 w300 h40 gMedicine11, [Гистероскопия]
+Gui, 3:Add, Button, x320 y40 w300 h40 gLaziness40, [Добровольная сдача крови]
+Gui, 3:Add, Button, x320 y90 w300 h40 gMedicine12, [Донорство]
+Gui, 3:Add, Button, x320 y140 w300 h40 gMedicine13, [Дефибриллятор]
+Gui, 3:Add, Button, x320 y190 w300 h40 gMedicine14, [Действия при укусе змеи]
+Gui, 3:Add, Button, x320 y240 w300 h40 gMedicine15, [ЭКГ]
+Gui, 3:Add, Button, x320 y290 w300 h40 gMedicine16, [Измерить температуру]
+Gui, 3:Add, Button, x320 y340 w300 h40 gLaziness15, [Инфаркт]
+Gui, 3:Add, Button, x320 y390 w300 h40 gMedicine17, [Капельница]
+Gui, 3:Add, Button, x320 y440 w300 h40 gMedicine18, [Колоноскопия]
+Gui, 3:Add, Button, x320 y490 w300 h40 gMedicine19, [Клизма]
+Gui, 3:Add, Button, x320 y540 w300 h40 gMedicine20, [Карта]
+Gui, 3:Add, Button, x320 y590 w300 h40 gLaziness14, [Массаж]
+Gui, 3:Add, Button, x630 y40 w300 h40 gMedicine21, [МРТ]
+Gui, 3:Add, Button, x630 y90 w300 h40 gMedicine22, [Ножевое ранение]
+Gui, 3:Add, Button, x630 y140 w300 h40 gMedicine23, [Носовое кровотечение]
+Gui, 3:Add, Button, x630 y190 w300 h40 gMedicine24, [Ожоги]
+Gui, 3:Add, Button, x630 y240 w300 h40 gLaziness23, [Остановить кровотечения]
+Gui, 3:Add, Button, x630 y290 w300 h40 gMedicine25, [Отравление желудка]
+Gui, 3:Add, Button, x630 y340 w300 h40 gMedicine26, [Открытый перелом]
+Gui, 3:Add, Button, x630 y390 w300 h40 gMedicine27, [Проверка на вши]
+Gui, 3:Add, Button, x630 y440 w300 h40 gMedicine28, [Проверка на глисты]
+Gui, 3:Add, Button, x630 y490 w300 h40 gMedicine29, [Проверка на алкоголь]
+Gui, 3:Add, Button, x630 y540 w300 h40 gMedicine30, [Проверка на наркотики]
+Gui, 3:Add, Button, x630 y590 w300 h40 gMedicine31, [Проверка зрения]
+Gui, 3:Add, Button, x940 y40 w300 h40 gMedicine32, [Приведение в чувства]
+Gui, 3:Add, Button, x940 y90 w300 h40 gMedicine33, [Проверка на сколиоз]
+Gui, 3:Add, Button, x940 y140 w300 h40 gLaziness9, [Прослушивания]
+Gui, 3:Add, Button, x940 y190 w300 h40 gMedicine34, [Принятие родов]
+Gui, 3:Add, Button, x940 y240 w300 h40 gMedicine35, [Перелом позвоночника]
+Gui, 3:Add, Button, x940 y290 w300 h40 gMedicine36, [Перелом ребёр]
+Gui, 3:Add, Button, x940 y340 w300 h40 gMedicine37, [Пулевое ранение]
+Gui, 3:Add, Button, x940 y390 w300 h40 gMedicine38, [Рентген конечности]
+Gui, 3:Add, Button, x940 y440 w300 h40 gMedicine50, [Рак почки]
+Gui, 3:Add, Button, x940 y490 w300 h40 gMedicine49, [Рак легких]
+Gui, 3:Add, Button, x940 y540 w300 h40 gMedicine39, [Рентген зуба]
+Gui, 3:Add, Button, x940 y590 w300 h40 gMedicine40, [Томография]
+Gui, 3:Tab, 3
+Gui, 3:Add, Picture, x0 y24 w1300 h700, C:\Program Files (x86)\AniHUB\AutoP\gh348f7943hj3h4re3f4fh4htht84htuhfh.jpg
+Gui, 3:Add, Picture, x0 y24 w1300 h700 +BackgroundTrans, %ASimages%
+Gui, 3:Font, S10 C000000
+Gui, 3:Add, Button, x10 y40 w300 h40 gLaziness8, [Tонометр]
+Gui, 3:Add, Button, x10 y90 w300 h40 gMedicine51, [Транспирация черепа]
+Gui, 3:Add, Button, x10 y140 w300 h40 gMedicine41, [Удаление аппендицита]
+Gui, 3:Add, Button, x10 y190 w300 h40 gMedicine42, [УЗИ]
+Gui, 3:Add, Button, x10 y240 w300 h40 gMedicine43, [Удаление зуба]
+Gui, 3:Add, Button, x10 y290 w300 h40 gMedicine44, [Удаление позвоночной грыжи]
+Gui, 3:Add, Button, x10 y340 w300 h40 gMedicine45, [Увеличение груди]
+Gui, 3:Add, Button, x10 y390 w300 h40 gMedicine46, [Флюрографи]
+Gui, 3:Add, Button, x10 y440 w300 h40 gMedicine47, [Фетоскопия]
+Gui, 3:Add, Button, x10 y490 w300 h40 gMedicine48, [Цистоскопия]
+Gui, 3:Add, Button, x10 y540 w300 h40 gMedicine52, [Пересадка сердца]
+; Gui, 3:Add, Button, x10 y590 w300 h40 , []
+; Gui, 3:Add, Button, x320 y40 w300 h40 , []
+; Gui, 3:Add, Button, x320 y90 w300 h40 , []
+; Gui, 3:Add, Button, x320 y140 w300 h40 , []
+; Gui, 3:Add, Button, x320 y190 w300 h40 , []
+; Gui, 3:Add, Button, x320 y240 w300 h40 , []
+; Gui, 3:Add, Button, x320 y290 w300 h40 , []
+; Gui, 3:Add, Button, x320 y340 w300 h40 , []
+; Gui, 3:Add, Button, x320 y390 w300 h40 , []
+; Gui, 3:Add, Button, x320 y440 w300 h40 , []
+; Gui, 3:Add, Button, x320 y490 w300 h40 , []
+; Gui, 3:Add, Button, x320 y540 w300 h40 , []
+; Gui, 3:Add, Button, x320 y590 w300 h40 , []
+; Gui, 3:Add, Button, x630 y40 w300 h40 , []
+; Gui, 3:Add, Button, x630 y90 w300 h40 , []
+; Gui, 3:Add, Button, x630 y140 w300 h40 , []
+; Gui, 3:Add, Button, x630 y190 w300 h40 , []
+; Gui, 3:Add, Button, x630 y240 w300 h40 , []
+; Gui, 3:Add, Button, x630 y290 w300 h40 , []
+; Gui, 3:Add, Button, x630 y340 w300 h40 , []
+; Gui, 3:Add, Button, x630 y390 w300 h40 , []
+; Gui, 3:Add, Button, x630 y440 w300 h40 , []
+; Gui, 3:Add, Button, x630 y490 w300 h40 , []
+; Gui, 3:Add, Button, x630 y540 w300 h40 , []
+; Gui, 3:Add, Button, x630 y590 w300 h40 , []
+; Gui, 3:Add, Button, x940 y40 w300 h40 , []
+; Gui, 3:Add, Button, x940 y90 w300 h40 , []
+; Gui, 3:Add, Button, x940 y140 w300 h40 , []
+; Gui, 3:Add, Button, x940 y190 w300 h40 , []
+; Gui, 3:Add, Button, x940 y240 w300 h40 , []
+; Gui, 3:Add, Button, x940 y290 w300 h40 , []
+; Gui, 3:Add, Button, x940 y340 w300 h40 , []
+; Gui, 3:Add, Button, x940 y390 w300 h40 , []
+; Gui, 3:Add, Button, x940 y440 w300 h40 , []
+; Gui, 3:Add, Button, x940 y490 w300 h40 , []
+; Gui, 3:Add, Button, x940 y540 w300 h40 , []
+; Gui, 3:Add, Button, x940 y590 w300 h40 , []
+Gui, 3:Tab, 4
+Gui, 3:Add, Picture, x0 y24 w1300 h700, C:\Program Files (x86)\AniHUB\AutoP\gh348f7943hj3h4re3f4fh4htht84htuhfh.jpg
+Gui, 3:Add, Picture, x0 y24 w1300 h700 +BackgroundTrans, %ASimages%
+Gui, 3:Add, Button, x10 y40 w300 h40 gLekarstva1,  [Аллергия]
+Gui, 3:Add, Button, x10 y90 w300 h40 gLekarstva2, [Боли в глазах ]
+Gui, 3:Add, Button, x10 y140 w300 h40 gLekarstva3, [Боли в ушах ]
+Gui, 3:Add, Button, x10 y190 w300 h40 gLekarstva4, [Боли в почках]
+Gui, 3:Add, Button, x10 y240 w300 h40 gLekarstva5, [Боль в животе, спазмы]
+Gui, 3:Add, Button, x10 y290 w300 h40 gLekarstva6, [Боли в спине, ногах и суставах]
+Gui, 3:Add, Button, x10 y340 w300 h40 gLekarstva7, [Боль в печени]
+Gui, 3:Add, Button, x10 y390 w300 h40 gLekarstva8, [Боль в горле]
+Gui, 3:Add, Button, x10 y440 w300 h40 gLekarstva9, [Витамины]
+Gui, 3:Add, Button, x10 y490 w300 h40 gLekarstva10, [Геморой]
+Gui, 3:Add, Button, x10 y540 w300 h40 gLekarstva11,[Головная боль]
+Gui, 3:Add, Button, x10 y590 w300 h40 gLekarstva12, [Для увеличения потенции]
+Gui, 3:Add, Button, x320 y40 w300 h40 gLekarstva13,  [Диарея, пищевое отравление]
+Gui, 3:Add, Button, x320 y90 w300 h40 gLekarstva14, [Диабет]
+Gui, 3:Add, Button, x320 y140 w300 h40 gLekarstva15, [Изжога]
+Gui, 3:Add, Button, x320 y190 w300 h40 gLekarstva16, [Кашель]
+Gui, 3:Add, Button, x320 y240 w300 h40 gLekarstva17, [Мочевой пузырь]
+Gui, 3:Add, Button, x320 y290 w300 h40 gLekarstva18, [Мигрень]
+Gui, 3:Add, Button, x320 y340 w300 h40 gLekarstva19, [Насморк]
+Gui, 3:Add, Button, x320 y390 w300 h40 gLekarstva20, [Ожоги]
+Gui, 3:Add, Button, x320 y440 w300 h40 gLekarstva21, [Повышенное давление]
+Gui, 3:Add, Button, x320 y490 w300 h40 gLekarstva22, [Пониженное давление]
+Gui, 3:Add, Button, x320 y540 w300 h40 gLekarstva23, [Простуда и жар]
+Gui, 3:Add, Button, x320 y590 w300 h40 gLekarstva24, [Судороги, нервный тик]
+Gui, 3:Add, Button, x630 y40 w300 h40 gLekarstva25,  [Сердечная боль]
+Gui, 3:Add, Button, x630 y90 w300 h40 gLekarstva26, [Тошнота]
+Gui, 3:Tab, 5
+Gui, 3:Add, Picture, x0 y24 w1300 h700, C:\Program Files (x86)\AniHUB\AutoP\gh348f7943hj3h4re3f4fh4htht84htuhfh.jpg
+Gui, 3:Add, Picture, x0 y24 w1300 h700 +BackgroundTrans, %ASimages%
+Gui, 3:Add, Button, x10 y40 w300 h40  gDoklad1, [Вызов (АСМП)]
+Gui, 3:Add, Button, x10 y90 w300 h40  gDoklad2, [Вызов (АСМП совм.)]
+Gui, 3:Add, Button, x10 y140 w300 h40 gDoklad3, [Вызов (ВСМП)]
+Gui, 3:Add, Button, x10 y190 w300 h40 gDoklad4, [Вызов (ВСМП Совм.)]
+Gui, 3:Add, Button, x10 y240 w300 h40 gDoklad5, [Патруль города (АСМП)]
+Gui, 3:Add, Button, x10 y290 w300 h40 gDoklad6, [Патруль города (ВСМП)]
+Gui, 3:Add, Button, x10 y340 w300 h40 gDoklad7, [Патруль р. Провинции (АСМП)]
+Gui, 3:Add, Button, x10 y390 w300 h40 gDoklad8, [Патруль р. Провинции (АСМП совм.)]
+Gui, 3:Add, Button, x10 y440 w300 h40 gDoklad9, [Патруль р. Провинции (ВСМП)]
+Gui, 3:Add, Button, x10 y490 w300 h40 gDoklad10, [Патруль р. Провинции (ВСМП совм.)]
+Gui, 3:Add, Button, x10 y540 w300 h40 gDoklad11, [Пост (АСМП)]
+Gui, 3:Add, Button, x10 y590 w300 h40 gDoklad13, [Пост (ВСМП)]
+Gui, 3:Add, Button, x320 y40 w300 h40 gDoklad14, [Пост (Регистратура)]
+Gui, 3:Tab, 6
+Gui, 3:Add, Picture, x0 y24 w1300 h700, C:\Program Files (x86)\AniHUB\AutoP\gh348f7943hj3h4re3f4fh4htht84htuhfh.jpg
+Gui, 3:Add, Picture, x0 y24 w1300 h700 +BackgroundTrans, %ASimages%
+Gui, 3:Add, Button, x10 y40 w300 h40   gLaziness27, [ПМП при кровотечении]
+Gui, 3:Add, Button, x10 y90 w300 h40   gLaziness28, [ПМП при обморожении]
+Gui, 3:Add, Button, x10 y140 w300 h40  gLaziness29, [ПМП при ожоге]
+Gui, 3:Add, Button, x10 y190 w300 h40  gLaziness30, [ПМП при пулевом ранение]
+Gui, 3:Add, Button, x10 y240 w300 h40  gLaziness31, [ПМП при удушье]
+Gui, 3:Add, Button, x10 y290 w300 h40  gLaziness32, [ПМП при вывихе челюсти]
+Gui, 3:Add, Button, x10 y340 w300 h40  gLaziness33, [ПМП при вывихе ноги]
+Gui, 3:Add, Button, x10 y390 w300 h40  gLaziness34, [ПМП при потере сознания]
+Gui, 3:Add, Button, x10 y440 w300 h40  gLaziness35, [ПМП при закрытом переломе]
+Gui, 3:Add, Button, x10 y490 w300 h40  gLaziness36, [ПМП при открытом переломе]
+Gui, 3:Add, Button, x10 y540 w300 h40  gLaziness37, [ПМП при переломе носа]
+Gui, 3:Add, Button, x10 y590 w300 h40  gLaziness38, [ПМП при сотрясении]
+Gui, 3:Add, Button, x320 y40 w300 h40  gLaziness39, [ПМП при ножевом ранении]
+; Gui, 3:Add, Button, x320 y90 w300 h40   , []
+; Gui, 3:Add, Button, x320 y140 w300 h40  , []
+; Gui, 3:Add, Button, x320 y190 w300 h40  , []
+; Gui, 3:Add, Button, x320 y240 w300 h40  , []
+; Gui, 3:Add, Button, x320 y290 w300 h40  , []
+; Gui, 3:Add, Button, x320 y340 w300 h40  , []
+; Gui, 3:Add, Button, x320 y390 w300 h40  , []
+; Gui, 3:Add, Button, x320 y440 w300 h40  , []
+; Gui, 3:Add, Button, x320 y490 w300 h40  , []
+; Gui, 3:Add, Button, x320 y540 w300 h40  , []
+; Gui, 3:Add, Button, x320 y590 w300 h40  , []
+; Gui, 3:Add, Button, x630 y40 w300 h40  , []
+; Gui, 3:Add, Button, x630 y90 w300 h40   , []
+; Gui, 3:Add, Button, x630 y140 w300 h40  , []
+; Gui, 3:Add, Button, x630 y190 w300 h40  , []
+; Gui, 3:Add, Button, x630 y240 w300 h40  , []
+; Gui, 3:Add, Button, x630 y290 w300 h40  , []
+; Gui, 3:Add, Button, x630 y340 w300 h40  , []
+; Gui, 3:Add, Button, x630 y390 w300 h40  , []
+; Gui, 3:Add, Button, x630 y440 w300 h40  , []
+; Gui, 3:Add, Button, x630 y490 w300 h40  , []
+; Gui, 3:Add, Button, x630 y540 w300 h40  , []
+; Gui, 3:Add, Button, x630 y590 w300 h40  , []
+; Gui, 3:Add, Button, x940 y40 w300 h40  , []
+; Gui, 3:Add, Button, x940 y90 w300 h40   , []
+; Gui, 3:Add, Button, x940 y140 w300 h40  , []
+; Gui, 3:Add, Button, x940 y190 w300 h40  , []
+; Gui, 3:Add, Button, x940 y240 w300 h40  , []
+; Gui, 3:Add, Button, x940 y290 w300 h40  , []
+; Gui, 3:Add, Button, x940 y340 w300 h40  , []
+; Gui, 3:Add, Button, x940 y390 w300 h40  , []
+; Gui, 3:Add, Button, x940 y440 w300 h40  , []
+; Gui, 3:Add, Button, x940 y490 w300 h40  , []
+; Gui, 3:Add, Button, x940 y540 w300 h40  , []
+; Gui, 3:Add, Button, x940 y590 w300 h40  , []
+Gui, 3:Tab
+Gui, 3:Font, s12
+Gui, 3:Add, Picture, x10 y650 h48 w48     +BackgroundTrans   ginformation, C:\Program Files (x86)\AniHUB\AutoP\14.ico
+; Gui, 3:Add, Picture, x100 y650 h48 w48    +BackgroundTrans   gButtonOpenGuiLecture, C:\Program Files (x86)\AniHUB\AutoP\13.png
+; Gui, 3:Add, Picture, x200 y650 h48 w48   +BackgroundTrans gOffers, C:\Program Files (x86)\AniHUB\AutoP\12.png
+; Gui, 3:Add, Picture, x300 y650 h48 w48   +BackgroundTrans gForum, C:\Program Files (x86)\AniHUB\AutoP\11.png
+; Gui, 3:Add, Picture, x400 y650 h48 w48   +BackgroundTrans gInfo,  C:\Program Files (x86)\AniHUB\AutoP\10.png
+; Gui, 3:Add, Picture, x500 y650 h48 w48   +BackgroundTrans gZA,  C:\Program Files (x86)\AniHUB\AutoP\9.png
+; Gui, 3:Add, Picture, x600 y650 h48 w48   +BackgroundTrans gHelp, C:\Program Files (x86)\AniHUB\AutoP\8.png
+; Gui, 3:Add, Picture, x700 y650 h48 w48   +BackgroundTrans gBag, C:\Program Files (x86)\AniHUB\AutoP\7.png
+; Gui, 3:Add, Picture, x800 y650 h48 w48   +BackgroundTrans gGroup, C:\Program Files (x86)\AniHUB\AutoP\6.png
+; Gui, 3:Add, Picture, x900 y650 h48 w48   +BackgroundTrans  gOCHS, C:\Program Files (x86)\AniHUB\AutoP\5.png
+Gui, 3:Add, Picture, x1000 y650 h48 w48   +BackgroundTrans   gappsettings, C:\Program Files (x86)\AniHUB\AutoP\f56s65f5sbn5fg4jf4hf.png
+Gui, 3:Add, Picture, x1100 y650 h48 w48   +BackgroundTrans   gReload, C:\Program Files (x86)\AniHUB\AutoP\7syfis845.png
+Gui, 3:Add, Picture, x1190 y650 h48 w48   +BackgroundTrans   gGuiClose, C:\Program Files (x86)\AniHUB\AutoP\7f45963.png
+Gui, 3:Show
+Return
+Medicine1:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /АСМП_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /АСМП_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /АСМП_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h20 w170 +BackgroundTrans, [АСМП погрузка]
+Gui, 4:Add, Text, x145 y35 h20 w170 +BackgroundTrans, [АСМП выгрузка]
+Gui, 4:Add, Text, x145 y55 h20 w500 +BackgroundTrans, [АСМП выгрузка оперепация]
+Return
+Medicine2:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Сахар_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Сахар_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Сахар_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Сахар_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Анализ сахара в крови]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Анализ сахара в крови]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Анализ сахара в крови удачно]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Анализ сахара в крови неудачно]
+Return
+Medicine3:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Шприц
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x195 y15 h20 w500 +BackgroundTrans, [Аллергический приступ]
+Return
+Medicine4:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Вакцинация
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Вакцинация]
+Return
+Medicine5:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Кровь
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Внутреннее кровотечение]
+Return
+Medicine6:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Зонд_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Зонд_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Зонд_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Взятие]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Взятие удачно]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Взятие неудачно]
+Return
+Medicine7:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Вена_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Вена_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Взятие крови из вены]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Взятие крови из вены]
+Return
+Medicine8:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Палец_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Палец_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Палец_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Палец_4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, /Палец_5
+Gui, 4:Add, Text, x10 y115 h20 w120 +BackgroundTrans, /Палец_6
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Взятие крови из пальца]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Взятие крови из пальца]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Взятие крови из пальца]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Взятие крови из пальца]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Взятие крови из пальца]
+Gui, 4:Add, Text, x145 y115 h20 w370 +BackgroundTrans, [Взятие крови из пальца]
+Return
+Medicine9:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /ВМС_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /ВМС_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Внутриматочная спираль]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Внутриматочная спираль]
+Return
+Medicine10:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /ФГДС_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /ФГДС_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ФГДС]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [ФГДС]
+Return
+Medicine11:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Матка_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Матка_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Матка_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Матка_4
+Gui, 4:Add, Text, x10 y95 h500 w120 +BackgroundTrans,/Матка_5
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Гистероскопия]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Гистероскопия]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Гистероскопия удачно]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Взятие крови неудачно]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Гистероскопия]
+Return
+Medicine12:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Донор
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans,  [Донорство]
+Return
+Medicine13:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /АВД_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /АВД_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /АВД_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /АВД_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x80 y15 h500 w370 +BackgroundTrans, [Дефибриллятор (Снять одежду)]
+Gui, 4:Add, Text, x80 y35 h500 w370 +BackgroundTrans, [Дефибриллятор (Проверка пульса)]
+Gui, 4:Add, Text, x80 y55 h500 w370 +BackgroundTrans, [Дефибриллятор (Пульса нет)]
+Gui, 4:Add, Text, x80 y75 h500 w370 +BackgroundTrans, [Дефибриллятор (Когда появится,или был)]
+Return
+Medicine14:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Змея_1
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Действия при укусе змеи]
+Return
+Medicine15:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /ЭКГ
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /ЭКГ_1
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /ЭКГ_2
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /ЭКГ_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ЭКГ (Просьба раздеться)]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [ЭКГ]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [ЭКГ удачно]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [ЭКГ неудачно]
+Return
+Medicine16:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Температура_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Температура_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Температура_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Измерить температуру]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Измерить температуру удачно]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Измерить температурунеудачно]
+Return
+Medicine17:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Капельница
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Капельница]
+Return
+Medicine18:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /ФКС_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /ФКС_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /ФКС_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Колоноскопия ]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Колоноскопия удачно]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Колоноскопия неудачно]
+Return
+Medicine19:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Клизма_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Клизма_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Клизма]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Клизма]
+Return
+Medicine20:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Карта_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Карта_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Взять мед. карту]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans,  [Вернуть мед. карту]
+Return
+Medicine21:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Мрт
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [МРТ]
+Return
+Medicine22:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Нож
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Ножевое ранение]
+Return
+Medicine23:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Нос
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Носовое кровотечени]
+Return
+Medicine24:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Ожоги
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Ожоги]
+Return
+Medicine25:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Желудк
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Отравление желудка]
+Return
+Medicine26:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Открытый
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Открытый перелом]
+Return
+Medicine27:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Вши_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Вши_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Вши_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Проверка на вши]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Проверка на вши (удачно)]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Проверка на вши (неудачно)]
+Return
+Medicine28:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Глисты_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Глисты_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Глисты_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Глисты_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Проверка на глисты]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Проверка на глисты]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Проверка на глисты (удачно)]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Проверка на глисты (неудачно)]
+Return
+Medicine29:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Алкоголь_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Алкоголь_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Алкоголь_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Алкоголь_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x110 y15 h500 w370 +BackgroundTrans, [Проверка на Алкоголь]
+Gui, 4:Add, Text, x110 y35 h500 w370 +BackgroundTrans, [Проверка на Алкоголь]
+Gui, 4:Add, Text, x110 y55 h500 w370 +BackgroundTrans, [Проверка на Алкоголь (превышена норма)]
+Gui, 4:Add, Text, x110 y75 h500 w370 +BackgroundTrans, [Проверка Алкоголь (не превышена норма)]
+Return
+Medicine30:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Наркотики_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Наркотики_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Наркотики_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Наркотики_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Проверка на Наркотики]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Проверка на Наркотики]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Проверка на Наркотики (удачно)]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Проверка на Наркотики (неудачно)]
+Return
+Medicine31:
+Gui, 4:Destroy,
+Gui, 4:show, center h220 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y180 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Зрения_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Зрения_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, Зрения_3
+Gui, 4:Add, Text, x10 y75 h200 w120 +BackgroundTrans, /Зрения_4
+Gui, 4:Add, Text, x10 y95 h200 w120 +BackgroundTrans, /Зрения_5
+Gui, 4:Add, Text, x10 y115 h200 w120 +BackgroundTrans, /Зрения_6
+Gui, 4:Add, Text, x10 y135 h200 w120 +BackgroundTrans, /Зрения_7
+Gui, 4:Add, Text, x10 y155 h200 w120 +BackgroundTrans, /Зрения_8
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Проверка Зрения]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Проверка Зрения]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Проверка Зрения]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Проверка Зрения]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Проверка Зрения]
+Gui, 4:Add, Text, x145 y115 h500 w370 +BackgroundTrans, [Проверка Зрения]
+Gui, 4:Add, Text, x145 y135 h500 w370 +BackgroundTrans, [Проверка Зрения]
+Gui, 4:Add, Text, x145 y155 h500 w370 +BackgroundTrans, [Проверка Зрения]
+Return
+Medicine32:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w545,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Чувства_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Чувства_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Чувства_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Чувства_4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, /Чувства_5
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x100 y15 h700 w700 +BackgroundTrans, [Приведение в чувства (Проверка пульса)]
+Gui, 4:Add, Text, x100 y35 h700 w700 +BackgroundTrans, [Приведение в чувства (Пульс есть или когда появится)]
+Gui, 4:Add, Text, x100 y55 h700 w700 +BackgroundTrans, [Приведение в чувства (Пульса нет)]
+Gui, 4:Add, Text, x100 y75 h700 w700 +BackgroundTrans, [Приведение в чувства (Если пульс не появился)]
+Gui, 4:Add, Text, x100 y95 h700 w700 +BackgroundTrans, [Приведение в чувства (Когда появляется пульс)]
+Return
+Medicine33:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Cколиоз_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Cколиоз_3
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Cколиоз_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Проверка на Cколиоз]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Проверка на Cколиоз (удачно)]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Проверка на Cколиоз (неудачно)]
+Return
+Medicine34:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Роды_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Роды_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Принятие Родов]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Принятие Родов]
+Return
+Medicine35:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Позвоночник
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Перелом позвоночника]
+Return
+Medicine36:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Ребро_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Ребро_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Ребро_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Перелом рёбер]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Перелом рёбер (удачно)]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Перелом рёбер (неудачно)]
+Return
+Medicine37:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Пуля
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Пулевое ранение]
+Return
+Medicine38:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Рентген_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Рентген_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Рентген_3
+Gui, 4:Add, Text, x10 y75 h200 w120 +BackgroundTrans, /Рентген_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Рентген конечности]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Рентген конечности (лангетка)]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Рентген конечности (гипс)]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Рентген конечности (мазь)]
+Return
+Medicine39:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Зуб_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Зуб_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Зуб_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Рентген зуба]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Рентген конечности (удачно)]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Рентген конечности (неудачно)]
+Return
+Medicine40:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Прибор_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Прибор_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Прибор_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Томография]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Томография удачно]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Томография неудачно]
+Return
+Medicine41:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Аппендикс
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Удаление аппендицита]
+Return
+Medicine42:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /УЗИ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [УЗИ]
+Return
+Medicine43:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Удаление
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Удаление зуба]
+Return
+Medicine44:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Грыжа_1
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Удаление позвоночной грыжи]
+Return
+Medicine45:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Грудь
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Увеличение груди]
+Return
+Medicine46:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Аппарат
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Флюрография]
+Return
+Medicine47:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Плод_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Плод_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Плод_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Плод_4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, /Плод_5
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Фетоскопия]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Фетоскопия]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Фетоскопия]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Фетоскопия удачно]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Фетоскопия неудачно]
+Return
+Medicine48:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Цистоскоп_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Цистоскоп_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Цистоскоп_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Цистоскоп_4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, /Цистоскоп_5
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Цистоскопия]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Цистоскопия]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Цистоскопия удачно]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Цистоскопия неудачно]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Цистоскопия]
+Return
+Medicine49:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Легкие
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Рак легких]
+Return
+Medicine50:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Почка_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Почка_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Рак почки (анастезиолог)]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Рак почки (хирург)]
+Return
+Medicine51:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w480,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Опухоль
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Опухоль головного мозга (транспирация)]
+Return
+Medicine52:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w480,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Сердце
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Пересадка сердца]
+Return
+Laziness1:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, Alt+1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, Alt+2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, Alt+3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, Alt+4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, Alt+5
+Gui, 4:Add, Text, x10 y115 h500 w370 +BackgroundTrans, Alt+6
+Gui, 4:Add, Text, x10 y135 h500 w370 +BackgroundTrans, Alt+7
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Приветствие]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Беспокойствие]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Осмотр]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Передать препарат]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Всего доброго, не болейте!]
+Gui, 4:Add, Text, x145 y115 h500 w370 +BackgroundTrans, [Если пациент отказался]
+Gui, 4:Add, Text, x145 y135 h500 w370 +BackgroundTrans, [Самолечение]
+Return
+Laziness2:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, Alt+0
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, Alt+Num1
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Рация]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Рация]
+Return
+Laziness3:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Смена_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Смена_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Смена_3
+Gui, 4:Add, Text, x10 y75 h200 w120 +BackgroundTrans, /Смена_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Заступить на смену]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Разрешение на отъезд]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Взять перерыв]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Сдать смену]
+Return
+Laziness4:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, Alt+9
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Часы]
+Return
+Laziness5:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, Alt+8
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Мегафон]
+Return
+Laziness6:
+Gui, 4:Destroy,
+Gui, 4:show, center h250 w430,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y200 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /CC_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /CC_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /СС_3
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /СС_4
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /СС_5
+Gui, 4:Add, Text, x10 y115 h500 w370 +BackgroundTrans, /СС_6
+Gui, 4:Add, Text, x10 y135 h500 w370 +BackgroundTrans, /СС_7
+Gui, 4:Add, Text, x10 y155 h500 w370 +BackgroundTrans, /СС_8
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x70 y15 h500 w370 +BackgroundTrans, [Разрешаю (7-10 ранг)]
+Gui, 4:Add, Text, x70 y35 h500 w370 +BackgroundTrans, [Отказываю (7-10 ранг)]
+Gui, 4:Add, Text, x70 y55 h200 w370 +BackgroundTrans, [Принятие во фракцию (9-10 ранг)]
+Gui, 4:Add, Text, x70 y75 h500 w370 +BackgroundTrans, [Повышение в должности (8-10 ранг)]
+Gui, 4:Add, Text, x70 y95 h500 w370 +BackgroundTrans, [Повышение изменить форму (7-10 ранг)]
+Gui, 4:Add, Text, x70 y115 h500 w370 +BackgroundTrans, [Изменить отделение (7-10 ранг)]
+Gui, 4:Add, Text, x70 y135 h500 w370 +BackgroundTrans, [Выдать выговор (7-10 ранг)]
+Gui, 4:Add, Text, x70 y155 h500 w370 +BackgroundTrans, [Уволить сотрудника 8-10 ранг)]
+Return
+Laziness7:
+Gui, 4:Destroy,
+Gui, 4:show, center h350 w330,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y315 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /ПС_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /ПС_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /ПС_3
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /ПС_4
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ПС_5
+Gui, 4:Add, Text, x10 y115 h500 w370 +BackgroundTrans, /ПС_6
+Gui, 4:Add, Text, x10 y135 h500 w370 +BackgroundTrans, /ПС_7
+Gui, 4:Add, Text, x10 y155 h500 w370 +BackgroundTrans, /ПС_8
+Gui, 4:Add, Text, x10 y175 h500 w370 +BackgroundTrans, /ПС_9
+Gui, 4:Add, Text, x10 y195  h500 w370 +BackgroundTrans, /ПС_10
+Gui, 4:Add, Text, x10 y215  h500 w370 +BackgroundTrans, /ПС_11
+Gui, 4:Add, Text, x10 y235 h500 w370 +BackgroundTrans, /ПС_12
+Gui, 4:Add, Text, x10 y255  h500 w370 +BackgroundTrans, /ПС_13
+Gui, 4:Add, Text, x10 y275  h500 w370 +BackgroundTrans, /ПС_14
+Gui, 4:Add, Text, x10 y295  h500 w370 +BackgroundTrans, /ПС_15
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x70 y15 h500 w370 +BackgroundTrans, [Собес - Привествие]
+Gui, 4:Add, Text, x70 y35 h500 w370 +BackgroundTrans, [Собес - ФИО, возраст]
+Gui, 4:Add, Text, x70 y55 h500 w370 +BackgroundTrans, [Собес - Образование]
+Gui, 4:Add, Text, x70 y75 h500 w370 +BackgroundTrans, [Собес - Запрос паспорта]
+Gui, 4:Add, Text, x70 y95 h500 w370 +BackgroundTrans, [Собес - Изучение паспорта]
+Gui, 4:Add, Text, x70 y115 h500 w370 +BackgroundTrans, [Собес - Запрос диплома]
+Gui, 4:Add, Text, x70 y135 h500 w370 +BackgroundTrans, [Собес - Изучение диплома]
+Gui, 4:Add, Text, x70 y155 h500 w370 +BackgroundTrans, [Собес - Запрос трудовой книжки]
+Gui, 4:Add, Text, x70 y175 h500 w370 +BackgroundTrans, [Собес - Изучение трудовой книжки]
+Gui, 4:Add, Text, x70 y195  h500 w370 +BackgroundTrans, [Собес - РП термины в РП чат]
+Gui, 4:Add, Text, x70 y215  h500 w370 +BackgroundTrans, [Собес - РП термины в N чат]
+Gui, 4:Add, Text, x70 y235  h500 w370 +BackgroundTrans, [Собес - Проверка на МГ]
+Gui, 4:Add, Text, x70 y255  h500 w370 +BackgroundTrans, [Собес - Присядьте]
+Gui, 4:Add, Text, x70 y275  h500 w370 +BackgroundTrans, [Собес - Ручка в карамне]
+Gui, 4:Add, Text, x70 y295  h500 w370 +BackgroundTrans, [Собес - ВК в b чат (9+)]
+Return
+Laziness8:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Давление
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x135 y15 h500 w370 +BackgroundTrans, [Проверка давления]
+Return
+Laziness9:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Прослушка_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Прослушка_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Прослушка (легкие)]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Прослушка (сердце)]
+Return
+Laziness10:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Принял
+Gui, 4:Add, Text, x10 y35 h230 w160 +BackgroundTrans, /Ложный
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x155 y15 h500 w370 +BackgroundTrans, [О выезде на вызов]
+Gui, 4:Add, Text, x155 y35 h500 w370 +BackgroundTrans, [Если вызов ложный]
+Gui, 4:Add, Text, x155 y55 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Laziness12:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w420,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Пост_в
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Дежурство
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Окончил
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /ВСМП_ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [О вылете на пост]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Каждые 5 минут на посте]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [По окончании дежурства на посту]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Laziness13:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Вылетели
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Патруль
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Еду
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /ВСМП_ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [О вылете на патруль]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Каждые 5 минут на патрулe]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [По окончании патрулирования]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Laziness14:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Массаж
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Лечебный массаж]
+Return
+Laziness15:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Инфаркт
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Инфаркт]
+Return
+Laziness16:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Халат
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Надеть халат]
+Return
+Laziness17:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Перчатки
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Надеть перчатки]
+Return
+Laziness18:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /ИВЛ_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /ИВЛ_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /ИВЛ_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ИВЛ (Больница)]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [ИВЛ (АСМП)]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [ИВЛ (выключить)]
+Return
+Laziness19:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Полы_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Полы_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Палата_1
+Gui, 4:Add, Text, x10 y75 h200 w120 +BackgroundTrans, /Палата_2
+Gui, 4:Add, Text, x10 y95 h200 w120 +BackgroundTrans, /Бельё
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Полы (начало)]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Полы (конец)]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Палата (начало)]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Палата (конец)]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Бельё на койке]
+Return
+Laziness20:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w170 +BackgroundTrans, /Мойка_1
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x110 y15 h500 w370 +BackgroundTrans, [Стерилизация медицинских предметов]
+Return
+Laziness21:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w170 +BackgroundTrans, /Укол
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x150 y15 h500 w370 +BackgroundTrans, [Любого препарата]
+Return
+Laziness23:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w170 +BackgroundTrans, /Рана
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x150 y15 h500 w370 +BackgroundTrans, [Остановить кровотечения]
+Return
+Laziness25:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w170 +BackgroundTrans, /Костюм
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x135 y15 h500 w370 +BackgroundTrans, [Костюм для инфекционного заболевания]
+Return
+Laziness26:
+Gui, 4:Destroy,
+Gui, 4:show, center h250 w430,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y200 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /ПР_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /ПР_2
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /ПР_3
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /ПР_4
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ПР_5
+Gui, 4:Add, Text, x10 y115 h500 w370 +BackgroundTrans, /ПР_6
+Gui, 4:Add, Text, x10 y135 h500 w370 +BackgroundTrans, /ПР_7
+Gui, 4:Add, Text, x10 y155 h500 w370 +BackgroundTrans, /ПР_8
+Gui, 4:Add, Text, x10 y175 h500 w370 +BackgroundTrans, /ПР_9
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x70 y15 h500 w370 +BackgroundTrans, [Призыв - Вы на мед.комиссию?]
+Gui, 4:Add, Text, x70 y35 h500 w370 +BackgroundTrans, [Призыв - Раздеваем по пояс и на кушетку]
+Gui, 4:Add, Text, x70 y55 h200 w370 +BackgroundTrans, [Призыв - Проверка Электрокардиограф]
+Gui, 4:Add, Text, x70 y75 h500 w370 +BackgroundTrans, [Призыв - Проверка УЗИ]
+Gui, 4:Add, Text, x70 y95 h500 w370 +BackgroundTrans, [Призыв - Проверка анализа крови]
+Gui, 4:Add, Text, x70 y115 h500 w370 +BackgroundTrans, [Призыв - Проверка МГ, ЗЗ и т.д. РП чат]
+Gui, 4:Add, Text, x70 y135 h500 w370 +BackgroundTrans, [Призыв - Проверка МГ, ЗЗ и т.д. /b чат]
+Gui, 4:Add, Text, x70 y155 h500 w370 +BackgroundTrans, [Призыв - Просим медицинскую карту]
+Gui, 4:Add, Text, x70 y175 h500 w370 +BackgroundTrans, [Призыв - Ставим штамп Годен в мед. карту]
+Return
+Laziness27:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Венозное
+Gui, 4:Add, Text, x10 y35 h200 w150 +BackgroundTrans, /Артериальное
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при венозном кровотечении]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [ПМП при артериальном кровотечении]
+Return
+Laziness28:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Мороз_1
+Gui, 4:Add, Text, x10 y35 h200 w150 +BackgroundTrans, /Мороз_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при обморожении (Больница)]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [ПМП при обморожении (АСМП)]
+Return
+Laziness29:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Ожог_ПМП
+Gui, 4:Add, Text, x10 y35 h200 w150 +BackgroundTrans, /Ожог_ПМП_1
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при ожоге  (Больница)]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [ПМП при ожоге  (АСМП)]
+Return
+Laziness30:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Пуля_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Пуля_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при пулевом (Известно где)]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [ПМП при пулевом (Неизвестно)]
+Return
+Laziness31:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Удушье_ПМП
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при удушье]
+Return
+Laziness32:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Челюсти_ПМП
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при вывихе челюсти]
+Return
+Laziness33:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Нога_1
+Gui, 4:Add, Text, x10 y35 h200 w150 +BackgroundTrans, /Нога_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Если имеются раны]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Если ран нет, или уже обработаны]
+Return
+Laziness34:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Сознание_ПМП
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при потере сознания]
+Return
+Laziness35:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /ПМП_закрытый
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при закрытом переломе]
+Return
+Laziness36:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /ПМП_открытый
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при открытом переломе]
+Return
+Laziness37:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Нос_ПМП
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ПМП при переломе носа]
+Return
+Laziness38:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w250 +BackgroundTrans, /ПМП_сотрясения
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x155 y15 h500 w370 +BackgroundTrans, [ПМП при сотрясении]
+Return
+Laziness39:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w250 +BackgroundTrans, /Нож_ПМП
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x155 y15 h500 w370 +BackgroundTrans, [ПМП при ножевом ранении]
+Return
+Laziness40:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w440,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w250 +BackgroundTrans, /Сдача
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x155 y15 h500 w370 +BackgroundTrans, [Добровольная сдача крови]
+Return
+Lekarstva1:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Аллергия_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Аллергия_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Аллергия_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Аллергия_4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, /Аллергия_5
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Цетрин]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Эриус ]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Кларитин]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Зодак]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Выписать:Лоратадин]
+Return
+Lekarstva2:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Глаз_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Глаз_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Визин]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Альбуцид]
+Return
+Lekarstva3:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Ухо_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Ухо_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Отинум]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Отипакс]
+Return
+Lekarstva4:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Почки_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Почки_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Уролесан]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать: Урохол]
+Return
+Lekarstva5:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Живот_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Живот_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [ВыписатьНо-шпу]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Дротаверин]
+Return
+Lekarstva6:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Суставы_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Суставы_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Суставы_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Суставы_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Фастум-гель]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Кетонал ]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Долгит]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Капсикам]
+Return
+Lekarstva7:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Печень_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Печень_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Печень_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Карсил-Форте]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Гепабене]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Урсофальк]
+Return
+Lekarstva8:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Горло_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Горло_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Горло_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Горло_4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, /Горло_5
+Gui, 4:Add, Text, x10 y115 h20 w120 +BackgroundTrans, /Горло_6
+Gui, 4:Add, Text, x10 y135 h20 w120 +BackgroundTrans,  /Горло_7
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Гексорал]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Стопангин]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Леголь]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Ингалипт]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Выписать:Стрепсилс]
+Gui, 4:Add, Text, x145 y115 h500 w370 +BackgroundTrans, [Выписать:Септолетте]
+Gui, 4:Add, Text, x145 y135 h500 w370 +BackgroundTrans, [Выписать:Септефрил]
+Return
+Lekarstva9:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Витамин_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Витамин_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Витамин_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Унивит]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Витамикс]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Алфавит]
+Return
+Lekarstva10:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Геморой
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Релиф]
+Return
+Lekarstva11:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Голова_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Голова_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Голова_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Голова_4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, /Голова_5
+Gui, 4:Add, Text, x10 y115 h20 w120 +BackgroundTrans, /Голова_6
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Миг]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Цитрамон]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Анальгин]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Спазмолгон]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Выписать:Спазмантон]
+Gui, 4:Add, Text, x145 y115 h500 w370 +BackgroundTrans, [Выписать:Но-шпу]
+Return
+Lekarstva12:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Потенция_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Потенция_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Сиалекс]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Виагру]
+Return
+Lekarstva13:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Диарея_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Диарея_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Диарея_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Диарея_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Энтеросгель]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Полисорб]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Лоперамид]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Активированный уголь]
+Return
+Lekarstva14:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Диабет_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Диабет_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Диабет_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Диабет_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Виктоза]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Диабетон]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Глиформин]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Глюкофаж]
+Return
+Lekarstva15:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Изжога_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Изжога_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Изжога_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Изжога_4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, /Изжога_5
+Gui, 4:Add, Text, x10 y115 h20 w120 +BackgroundTrans, /Изжога_6
+Gui, 4:Add, Text, x10 y135 h20 w120 +BackgroundTrans,  /Изжога_7
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Ренни]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Маалокс]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Алмагель]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Гастал]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Выписать:Гастрацид]
+Gui, 4:Add, Text, x145 y115 h500 w370 +BackgroundTrans, [Выписать:Мотилиума]
+Gui, 4:Add, Text, x145 y135 h500 w370 +BackgroundTrans,  [Выписать:Омепразол]
+Return
+Lekarstva16:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Кашель_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Кашель_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Кашель_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Кашель_4
+Gui, 4:Add, Text, x10 y95 h20 w120 +BackgroundTrans, /Кашель_5
+Gui, 4:Add, Text, x10 y115 h20 w120 +BackgroundTrans, /Кашель_6
+Gui, 4:Add, Text, x10 y135 h20 w120 +BackgroundTrans,  /Кашель_7
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Лазолван]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Гербион]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Стоптуссин]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Омнитус]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [Выписать:Амбробене]
+Gui, 4:Add, Text, x145 y115 h500 w370 +BackgroundTrans, [Выписать:Флюдитек]
+Gui, 4:Add, Text, x145 y135 h500 w370 +BackgroundTrans,  [Выписать:Геделикс]
+Return
+Lekarstva17:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Пузырь_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Пузырь_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Цистон]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Нолицин]
+Return
+Lekarstva18:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Мигрень_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Мигрень_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Мигрень_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Мигрень_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Амигренин]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Суматриптан]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Релпакс]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Сумамигрен]
+Return
+Lekarstva19:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Насморк_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Насморк_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Насморк_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Снуп]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Отривин]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Аква Марис]
+Return
+Lekarstva20:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Ожог_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Ожог_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Бепантен]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Пантенол]
+Return
+Lekarstva21:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Повышенное_1
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Андипал]
+Return
+Lekarstva22:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Пониженное_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Пониженное_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Норадреналин]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Кордиамин]
+Return
+Lekarstva23:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Жар_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Жар_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Жар_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Терафлю]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Колдрекс]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Антигриппин]
+Return
+Lekarstva24:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Судороги_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Судороги_2
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Магнелис]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Аспаркам]
+Return
+Lekarstva25:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Сердце_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Сердце_2
+Gui, 4:Add, Text, x10 y55 h500 w370 +BackgroundTrans, /Сердце_3
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Кардиомагнил]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Нитроглицерин]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Корвалол]
+Return
+Lekarstva26:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Тошнота_1
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Тошнота_2
+Gui, 4:Add, Text, x10 y55 h20 w120 +BackgroundTrans, /Тошнота_3
+Gui, 4:Add, Text, x10 y75 h20 w120 +BackgroundTrans, /Тошнота_4
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выписать:Церукалн]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Выписать:Метоклопрамид]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Выписать:Драмина]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [Выписать:Авиамарин]
+Return
+Doklad1:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Принял
+Gui, 4:Add, Text, x10 y35 h230 w160 +BackgroundTrans, /Ложный
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Обработан
+Gui, 4:Add, Text, x10 y75 h230 w160 +BackgroundTrans, /ВЦГБ
+Gui, 4:Add, Text, x10 y95 h200 w120 +BackgroundTrans, /ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x155 y15 h500 w370 +BackgroundTrans, [О выезде на вызов]
+Gui, 4:Add, Text, x155 y35 h500 w370 +BackgroundTrans, [Если вызов ложный]
+Gui, 4:Add, Text, x155 y55 h500 w370 +BackgroundTrans, [Если вызов обработан на месте]
+Gui, 4:Add, Text, x155 y75 h500 w370 +BackgroundTrans, [После госпитализации пациента]
+Gui, 4:Add, Text, x155 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad2:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Принял_ро
+Gui, 4:Add, Text, x10 y35 h230 w160 +BackgroundTrans, /Ложный_ро
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Обработан_ро
+Gui, 4:Add, Text, x10 y75 h200 w160 +BackgroundTrans, /ВЦГБ_ро
+Gui, 4:Add, Text, x10 y95 h200 w120 +BackgroundTrans, /ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x155 y15 h500 w370 +BackgroundTrans, [О выезде на вызов]
+Gui, 4:Add, Text, x155 y35 h500 w370 +BackgroundTrans, [Если вызов ложный]
+Gui, 4:Add, Text, x155 y55 h500 w370 +BackgroundTrans, [Если вызов обработан на месте]
+Gui, 4:Add, Text, x155 y75 h500 w370 +BackgroundTrans, [После госпитализации пациента]
+Gui, 4:Add, Text, x155 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad3:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Принял
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Ложный
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Обработан
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /ВЦГБ
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ВСМП_ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [О вылете на вызов]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Если вызов ложный]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Если вызов обработан на месте]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [После госпитализации пациента]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad4:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Принял_ро
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Ложный_ро
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Обработан_ро
+Gui, 4:Add, Text, x10 y75 h200 w370 +BackgroundTrans, /ВЦГБ_ро
+Gui, 4:Add, Text, x10 y95 h200 w370 +BackgroundTrans, /ВСМП_ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [О вылете на вызов]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Если вызов ложный]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Если вызов обработан на месте]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [После госпитализации пациента]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad5:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Город
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Выехал_г
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Патруль_г
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /Еду_г
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [О выезде на патруль]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Если разрешили]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Каждые 5 минут на патрулe]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [По окончании патрулирования]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad6:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Воздух
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Вылетели
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Патруль
+Gui, 4:Add, Text, x10 y75 h200 w120 +BackgroundTrans, /Еду
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ВСМП_ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Разрешение]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Если разрешили]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Каждые 5 минут на патрулe]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [По окончании патрулирования]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad7:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w480,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Республика_р
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Выехал_р
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Патруль_р
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /Еду_р
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ЦГБ
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [О выезде на патруль р. Провинции]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Если разрешили]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Каждые 5 минут на патруле]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [По окончании патрулирования р. Провинция]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad8:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w480,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Республика_ро
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Выехал_ро
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Патруль_ро
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /Еду_ро
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ЦГБ
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [О выезде на патруль р. Провинции]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Если разрешили]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Каждые 5 минут на патруле]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [По окончании патрулирования р. Провинция]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad9:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w480,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Воздух_р
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Вылетели_p
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Выехал_р
+Gui, 4:Add, Text, x10 y75 h200 w120 +BackgroundTrans, /Патруль_р
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ВСМП_ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Разрешение]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Если разрешили]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Каждые 5 минут на патрулe]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [По окончании патрулирования р. Провинции]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad10:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w480,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Воздух_ро
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Вылетели_pо
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Выехал_ро
+Gui, 4:Add, Text, x10 y75 h200 w120 +BackgroundTrans, /Патруль_ро
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ВСМП_ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Разрешение]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Если разрешили]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [Каждые 5 минут на патрулe]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [По окончании патрулирования р. Провинции]
+Gui, 4:Add, Text, x145 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad11:
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w400,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Пост
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Выехал
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Дежурство
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /Окончил
+Gui, 4:Add, Text, x10 y95 h500 w370 +BackgroundTrans, /ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x135 y15 h500 w370 +BackgroundTrans, [О выезде на пост]
+Gui, 4:Add, Text, x135 y35 h500 w370 +BackgroundTrans, [Если разрешили]
+Gui, 4:Add, Text, x135 y55 h500 w370 +BackgroundTrans, [Каждые 5 минут на посте]
+Gui, 4:Add, Text, x135 y75 h500 w370 +BackgroundTrans, [По окончании дежурства на посту]
+Gui, 4:Add, Text, x135 y95 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad13:
+Gui, 4:Color,333333
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w420,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Пост_в
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Дежурство
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Окончил
+Gui, 4:Add, Text, x10 y75 h500 w370 +BackgroundTrans, /ВСМП_ЦГБ
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [О вылете на пост]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Каждые 5 минут на посте]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [По окончании дежурства на посту]
+Gui, 4:Add, Text, x145 y75 h500 w370 +BackgroundTrans, [По окончании работы]
+Return
+Doklad14:
+Gui, 4:Color,333333
+Gui, 4:Destroy,
+Gui, 4:show, center h200 w420,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y160 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 h200 w120 +BackgroundTrans, /Пост_рег
+Gui, 4:Add, Text, x10 y35 h200 w120 +BackgroundTrans, /Дежурство_рег
+Gui, 4:Add, Text, x10 y55 h200 w120 +BackgroundTrans, /Окончил_рег
+Gui, 4:Font, S11 C000000 Bold, Consolas
+Gui, 4:Add, Text, x145 y15 h500 w370 +BackgroundTrans, [Выход на пост регистратуры]
+Gui, 4:Add, Text, x145 y35 h500 w370 +BackgroundTrans, [Каждые 5 минут на посте]
+Gui, 4:Add, Text, x145 y55 h500 w370 +BackgroundTrans, [По окончании дежурства на посту]
+Return

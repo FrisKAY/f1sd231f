@@ -1,0 +1,7 @@
+﻿;-----------------------------------------------------
+; In the button label, add the focus grab line
+GuiControl , % HB_Button[ A_GuiControl ].Window ": Focus" , % HB_Button[ A_GuiControl ].Hwnd
+; Add the button press function call and test
+if( ! HB_Button[ A_GuiControl ].Draw_Pressed() )
+    return	
+;----------------------------------------------

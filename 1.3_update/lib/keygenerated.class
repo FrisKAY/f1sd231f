@@ -1,0 +1,34 @@
+﻿KeyGenerated:
+Gui, 4:Destroy,
+Gui, 4:Color,333333
+Gui, 4:show, center h90 w450,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y50 w90 h35 gKon, Закрыть
+Gui, 4:Add, Button, x350 y50 w90 h35 gGenerate, Генерить
+Gui, 4:Add, Text, x10 y15 w400 h20 cFF2400  +BackgroundTrans , Введите UID:
+Gui, 4:Add, Edit, x130 y10 w230 vGenUID, %GenUID%
+Return
+
+Generate:
+Gui, SubMit, NoHide
+KeyUID := SWP_GenerateKeyUID(GenUID)
+SWP_GenerateKeyUID(GenUID) {
+    Global k0,k1,k2,k3,l0,l1,m0,m1
+	
+	If( not k0 ) {
+        MsgBox 16,Error,Error in SWP_GenerateKey - values are not initialized.`nPlease call SWP_Initialize() first.
+        Return -1
+    }
+	
+    Together = %GenUID%
+    Auth := XCBC(Hex(Together,StrLen(Together)), 0,0, k0,k1,k2,k3, l0,l1, m0,m1)
+    Return Auth
+}
+Gui, 4:Destroy,
+Gui, 4:Color,333333
+Gui, 4:show, center h90 w450,
+Gui, 4:Font, S11 cRed Bold,
+Gui, 4:Add, Button, x10 y50 w90 h35 gKon, Закрыть
+Gui, 4:Add, Text, x10 y15 w400 h20 cFF2400  +BackgroundTrans , Ключ UID:
+Gui, 4:Add, Edit, x130 y10 w230 vKeyUID, %KeyUID%
+Return

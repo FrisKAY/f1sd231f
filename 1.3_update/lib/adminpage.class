@@ -1,0 +1,180 @@
+﻿Gui, Submit
+SoundPlay, C:\Program Files (x86)\AniHUB\AutoP\4gyh5u6u5g4g434fr3r3.mp3
+Gui, 3:show, center h700 w1250,
+Gui, 3:Font, S10   Bold
+Gui, 3:Add, Tab2, x0 y0 w1290 h25 c000000  +BackgroundTrans, Главная страница | Пустая страница с кнопками | NextGEN Button
+Gui, 3: Tab, 1
+Gui, 3:Add, Picture, x0 y24 w1300 h700, C:\Program Files (x86)\AniHUB\AutoP\R43e.jpg
+Gui, 3:Add, Picture, x0 y24 w1300 h700 +BackgroundTrans, %ASimages%
+Gui, 3: Font, S10 C000000
+Gui, 3:Add, Picture, x10 y650 h48 w48     +BackgroundTrans   ginformation, C:\Program Files (x86)\AniHUB\AutoP\14.ico
+; Gui, 3:Add, Picture, x100 y650 h48 w48    +BackgroundTrans   gButtonOpenGuiLecture, C:\Program Files (x86)\AniHUB\AutoP\13.png
+; Gui, 3:Add, Picture, x200 y650 h48 w48   +BackgroundTrans gOffers, C:\Program Files (x86)\AniHUB\AutoP\12.png
+; Gui, 3:Add, Picture, x300 y650 h48 w48   +BackgroundTrans gForum, C:\Program Files (x86)\AniHUB\AutoP\11.png
+; Gui, 3:Add, Picture, x400 y650 h48 w48   +BackgroundTrans gInfo,  C:\Program Files (x86)\AniHUB\AutoP\10.png
+; Gui, 3:Add, Picture, x500 y650 h48 w48   +BackgroundTrans gZA,  C:\Program Files (x86)\AniHUB\AutoP\9.png
+; Gui, 3:Add, Picture, x600 y650 h48 w48   +BackgroundTrans gHelp, C:\Program Files (x86)\AniHUB\AutoP\8.png
+; Gui, 3:Add, Picture, x700 y650 h48 w48   +BackgroundTrans gBag, C:\Program Files (x86)\AniHUB\AutoP\7.png
+; Gui, 3:Add, Picture, x800 y650 h48 w48   +BackgroundTrans gGroup, C:\Program Files (x86)\AniHUB\AutoP\6.png
+; Gui, 3:Add, Picture, x900 y650 h48 w48   +BackgroundTrans  gOCHS, C:\Program Files (x86)\AniHUB\AutoP\5.png
+Gui, 3:Add, Picture, x1000 y650 h48 w48   +BackgroundTrans   gappsettings, C:\Program Files (x86)\AniHUB\AutoP\f56s65f5sbn5fg4jf4hf.png
+Gui, 3:Add, Picture, x1100 y650 h48 w48   +BackgroundTrans   gReload, C:\Program Files (x86)\AniHUB\AutoP\7syfis845.png
+Gui, 3:Add, Picture, x1190 y650 h48 w48   +BackgroundTrans   gGuiClose, C:\Program Files (x86)\AniHUB\AutoP\7f45963.png
+Gui, 3:Add, Button, x10 y40 w300 h40  gKeyGenerated, Генерация ключа доступа
+; Gui, 3:Add, Button, x10 y90 w300 h40  , []
+; Gui, 3:Add, Button, x10 y140 w300 h40  , []
+; Gui, 3:Add, Button, x10 y190 w300 h40  , []
+; Gui, 3:Add, Button, x10 y240 w300 h40  , []
+; Gui, 3:Add, Button, x10 y290 w300 h40  , []
+; Gui, 3:Add, Button, x10 y340 w300 h40  , []
+; Gui, 3:Add, Button, x10 y390 w300 h40  , []
+; Gui, 3:Add, Button, x10 y440 w300 h40  , []
+; Gui, 3:Add, Button, x10 y490 w300 h40  , []
+; Gui, 3:Add, Button, x10 y540 w300 h40  , []
+; Gui, 3:Add, Button, x10 y590 w300 h40  , []
+; Gui, 3:Add, Button, x320 y40 w300 h40  , []
+; Gui, 3:Add, Button, x320 y90 w300 h40  , []
+; Gui, 3:Add, Button, x320 y140 w300 h40  , []
+; Gui, 3:Add, Button, x320 y190 w300 h40  , []
+; Gui, 3:Add, Button, x320 y240 w300 h40  , []
+; Gui, 3:Add, Button, x320 y290 w300 h40  , []
+; Gui, 3:Add, Button, x320 y340 w300 h40  , []
+; Gui, 3:Add, Button, x320 y390 w300 h40  , []
+; Gui, 3:Add, Button, x320 y440 w300 h40  , []
+; Gui, 3:Add, Button, x320 y490 w300 h40  , []
+; Gui, 3:Add, Button, x320 y540 w300 h40  , []
+; Gui, 3:Add, Button, x320 y590 w300 h40  , []
+; Gui, 3:Add, Button, x630 y40 w300 h40  , []
+; Gui, 3:Add, Button, x630 y90 w300 h40   , []
+; Gui, 3:Add, Button, x630 y140 w300 h40  , []
+; Gui, 3:Add, Button, x630 y190 w300 h40  , []
+; Gui, 3:Add, Button, x630 y240 w300 h40  , []
+; Gui, 3:Add, Button, x630 y290 w300 h40  , []
+; Gui, 3:Add, Button, x630 y340 w300 h40  , []
+; Gui, 3:Add, Button, x630 y390 w300 h40  , []
+; Gui, 3:Add, Button, x630 y440 w300 h40  , []
+; Gui, 3:Add, Button, x630 y490 w300 h40  , []
+; Gui, 3:Add, Button, x630 y540 w300 h40  , []
+; Gui, 3:Add, Button, x630 y590 w300 h40  , []
+; Gui, 3:Add, Button, x940 y40 w300 h40  , []
+; Gui, 3:Add, Button, x940 y90 w300 h40   , []
+; Gui, 3:Add, Button, x940 y140 w300 h40  , []
+; Gui, 3:Add, Button, x940 y190 w300 h40  , []
+; Gui, 3:Add, Button, x940 y240 w300 h40  , []
+; Gui, 3:Add, Button, x940 y290 w300 h40  , []
+; Gui, 3:Add, Button, x940 y340 w300 h40  , []
+; Gui, 3:Add, Button, x940 y390 w300 h40  , []
+; Gui, 3:Add, Button, x940 y440 w300 h40  , []
+; Gui, 3:Add, Button, x940 y490 w300 h40  , []
+; Gui, 3:Add, Button, x940 y540 w300 h40  , []
+; Gui, 3:Add, Button, x940 y590 w300 h40  , []
+Gui, 3:Tab, 2
+Gui, 3:Add, Picture, x0 y24 w1300 h700, C:\Program Files (x86)\AniHUB\AutoP\R43e.jpg
+Gui, 3:Add, Picture, x0 y24 w1300 h700 +BackgroundTrans, %ASimages%
+; Gui, 3:Add, Button, x10 y40 w300 h40  , []
+; Gui, 3:Add, Button, x10 y90 w300 h40  , []
+; Gui, 3:Add, Button, x10 y140 w300 h40  , []
+; Gui, 3:Add, Button, x10 y190 w300 h40  , []
+; Gui, 3:Add, Button, x10 y240 w300 h40  , []
+; Gui, 3:Add, Button, x10 y290 w300 h40  , []
+; Gui, 3:Add, Button, x10 y340 w300 h40  , []
+; Gui, 3:Add, Button, x10 y390 w300 h40  , []
+; Gui, 3:Add, Button, x10 y440 w300 h40  , []
+; Gui, 3:Add, Button, x10 y490 w300 h40  , []
+; Gui, 3:Add, Button, x10 y540 w300 h40  , []
+; Gui, 3:Add, Button, x10 y590 w300 h40  , []
+; Gui, 3:Add, Button, x320 y40 w300 h40  , []
+; Gui, 3:Add, Button, x320 y90 w300 h40  , []
+; Gui, 3:Add, Button, x320 y140 w300 h40  , []
+; Gui, 3:Add, Button, x320 y190 w300 h40  , []
+; Gui, 3:Add, Button, x320 y240 w300 h40  , []
+; Gui, 3:Add, Button, x320 y290 w300 h40  , []
+; Gui, 3:Add, Button, x320 y340 w300 h40  , []
+; Gui, 3:Add, Button, x320 y390 w300 h40  , []
+; Gui, 3:Add, Button, x320 y440 w300 h40  , []
+; Gui, 3:Add, Button, x320 y490 w300 h40  , []
+; Gui, 3:Add, Button, x320 y540 w300 h40  , []
+; Gui, 3:Add, Button, x320 y590 w300 h40  , []
+; Gui, 3:Add, Button, x630 y40 w300 h40  , []
+; Gui, 3:Add, Button, x630 y90 w300 h40   , []
+; Gui, 3:Add, Button, x630 y140 w300 h40  , []
+; Gui, 3:Add, Button, x630 y190 w300 h40  , []
+; Gui, 3:Add, Button, x630 y240 w300 h40  , []
+; Gui, 3:Add, Button, x630 y290 w300 h40  , []
+; Gui, 3:Add, Button, x630 y340 w300 h40  , []
+; Gui, 3:Add, Button, x630 y390 w300 h40  , []
+; Gui, 3:Add, Button, x630 y440 w300 h40  , []
+; Gui, 3:Add, Button, x630 y490 w300 h40  , []
+; Gui, 3:Add, Button, x630 y540 w300 h40  , []
+; Gui, 3:Add, Button, x630 y590 w300 h40  , []
+; Gui, 3:Add, Button, x940 y40 w300 h40  , []
+; Gui, 3:Add, Button, x940 y90 w300 h40   , []
+; Gui, 3:Add, Button, x940 y140 w300 h40  , []
+; Gui, 3:Add, Button, x940 y190 w300 h40  , []
+; Gui, 3:Add, Button, x940 y240 w300 h40  , []
+; Gui, 3:Add, Button, x940 y290 w300 h40  , []
+; Gui, 3:Add, Button, x940 y340 w300 h40  , []
+; Gui, 3:Add, Button, x940 y390 w300 h40  , []
+; Gui, 3:Add, Button, x940 y440 w300 h40  , []
+; Gui, 3:Add, Button, x940 y490 w300 h40  , []
+; Gui, 3:Add, Button, x940 y540 w300 h40  , []
+; Gui, 3:Add, Button, x940 y590 w300 h40  , []
+Gui, 3:Tab, 3
+Gui, 3:Add, Picture, x0 y24 w1300 h700, C:\Program Files (x86)\AniHUB\AutoP\R43e.jpg
+Gui, 3:Add, Picture, x0 y24 w1300 h700 +BackgroundTrans, %ASimages%
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=40 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=90 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=140 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=190 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=240 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=290 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=340 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=390 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=440 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=490 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=540 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=10  , y:=590 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=40 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=90 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=140 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=190 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=240 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=290 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=340 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=390 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=440 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=490 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=540 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=320  , y:=590 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=40 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=90 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=140 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=190 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=240 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=290 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=340 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=390 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=440 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=490 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=540 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=630  , y:=590 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=40 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=90 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=140 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=190 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=240 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=290 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=340 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=390 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=440 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=490 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=540 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+HB_Button.Push( New HB_Flat_Rounded_Button_Type_1( x:=940  , y:=590 , w := 300 , h := 40 , Button_Color := "865ABB" , Button_Background_Color := "333333" , Text := ASkeys , Font := ASButtonFont , Font_Size := ASButtonFontSize " Bold" , Font_Color_Top := ASButtonFontColorTop , Font_Color_Bottom := "111111" , Window := "3" , Label := "Doklad13" , Default_Button := 1 , Roundness:=2 ) )
+SetTimer, HB_Button_Hover , 50
+Gui, 3:Tab
+Gui, 3:Font, s12
+Gui, 3:Add, Picture, x10 y650 h48 w48     +BackgroundTrans   ginformation, C:\Program Files (x86)\AniHUB\AutoP\14.ico
+Gui, 3:Add, Picture, x1000 y650 h48 w48   +BackgroundTrans   gappsettings, C:\Program Files (x86)\AniHUB\AutoP\f56s65f5sbn5fg4jf4hf.png
+Gui, 3:Add, Picture, x1100 y650 h48 w48   +BackgroundTrans   gReload, C:\Program Files (x86)\AniHUB\AutoP\7syfis845.png
+Gui, 3:Add, Picture, x1190 y650 h48 w48   +BackgroundTrans   gGuiClose, C:\Program Files (x86)\AniHUB\AutoP\7f45963.png
+Gui, 3:Show
