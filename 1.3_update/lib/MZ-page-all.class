@@ -16,7 +16,7 @@ Gui, 3:Add, Picture, x10 y650 h48 w48     +BackgroundTrans   ginformation, C:\Pr
 ; Gui, 3:Add, Picture, x600 y650 h48 w48   +BackgroundTrans gHelp, C:\Program Files (x86)\AniHUB\AutoP\8.png
 ; Gui, 3:Add, Picture, x700 y650 h48 w48   +BackgroundTrans gBag, C:\Program Files (x86)\AniHUB\AutoP\7.png
 ; Gui, 3:Add, Picture, x800 y650 h48 w48   +BackgroundTrans gGroup, C:\Program Files (x86)\AniHUB\AutoP\6.png
-; Gui, 3:Add, Picture, x900 y650 h48 w48   +BackgroundTrans  gOCHS, C:\Program Files (x86)\AniHUB\AutoP\5.png
+; Gui, 3:Add, Picture, x900 y650 h48 w48    +BackgroundTrans, C:\Program Files (x86)\AniHUB\AutoP\s85964fsd584f.png
 Gui, 3:Add, Picture, x1000 y650 h48 w48   +BackgroundTrans   gappsettings, C:\Program Files (x86)\AniHUB\AutoP\f56s65f5sbn5fg4jf4hf.png
 Gui, 3:Add, Picture, x1100 y650 h48 w48   +BackgroundTrans   gReload, C:\Program Files (x86)\AniHUB\AutoP\7syfis845.png
 Gui, 3:Add, Picture, x1190 y650 h48 w48   +BackgroundTrans   gGuiClose, C:\Program Files (x86)\AniHUB\AutoP\7f45963.png
